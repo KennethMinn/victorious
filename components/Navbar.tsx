@@ -52,7 +52,7 @@ const Navbar = () => {
             href={link.href}
             key={link.id}
             className={classNames({
-              "text-[#3F1F38]": true,
+              "text-[#3F1F38] text-[20px]": true,
               "border border-[#3F1F38] p-2 rounded-md border-dashed":
                 pathname === link.href,
             })}
