@@ -75,20 +75,20 @@ const Products: FC = () => {
   };
 
   return (
-    <div>
-      <p className=" w-full text-center text-[45px] font-semibold text-primary mb-[96px]">
+    <div className=" bg-primary py-12">
+      <p className=" w-full text-center text-[45px] font-semibold text-white mb-[40px]">
         Products
       </p>
       <Slider {...settings} className=" w-[1224px] mx-auto relative">
         {products.map((product, i) => (
-          <div key={i} className=" px-2">
-            <div className=" border rounded-lg">
+          <div key={i} className=" px-3">
+            <div className=" border rounded-lg bg-white">
               <Image
                 src={product.image}
                 alt="img1"
-                className=" w-full h-[384px]"
+                className=" w-full h-[384px] rounded-lg"
               />
-              <div className=" flex flex-col gap-y-8 p-4">
+              <div className=" flex flex-col gap-y-4 p-4">
                 <p className=" text-[20px] text-[#A10550] font-bold">
                   {product.title}
                 </p>

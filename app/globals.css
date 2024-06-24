@@ -9,3 +9,14 @@ body {
 #email::placeholder {
   color: #cbcbcb;
 }
+
+/* home -> review */
+.bg-pinky {
+  background-image: url("../assets/home/bg-pink.png");
+  object-fit: cover;
+}
+
+/* about -> founder bg */
+.bg-pink {
+  background-image: url("../assets/aboutus/bg.png");
+}

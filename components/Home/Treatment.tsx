@@ -44,7 +44,7 @@ const Treatment = () => {
         {treatments.map((treatment) => (
           <div
             key={treatment.id}
-            className=" flex flex-col gap-y-[21px] items-center"
+            className=" flex flex-col gap-y-[21px] items-center hover:scale-110 transition duration-[0.1s]"
           >
             <Image
               src={treatment.image}

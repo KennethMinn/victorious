@@ -4,7 +4,7 @@ import avatar from "../../assets/home/ksh.png";
 
 const Review = () => {
   return (
-    <div>
+    <div className="bg-pinky bg-cover bg-center h-[980px]">
       <div className=" w-full text-center text-[45px] font-semibold text-[#714031]">
         Our Customer&apos;s Reviews
       </div>
@@ -13,7 +13,7 @@ const Review = () => {
       </div>
       <div className="flex flex-col gap-y-10 mt-[54px]">
         <div className=" flex gap-10 justify-center ">
-          <div className=" bg-white w-[455px] h-[278px] shadow-md rounded-3xl px-5 flex flex-col justify-center gap-y-5">
+          <div className=" bg-white w-[455px] h-[258px] shadow-md rounded-3xl px-5 flex flex-col justify-center gap-y-5">
             <p className=" text-[20px] font-light italic">
               Click edit button to change this text. Lorem ipsum dolor sit amet,
               consectetur adipiscing elit. Ut elit tellus, luctus nec
@@ -31,7 +31,7 @@ const Review = () => {
               </div>
             </div>
           </div>
-          <div className=" bg-white w-[455px] h-[278px] shadow-md rounded-3xl px-5 flex flex-col justify-center gap-y-5">
+          <div className=" bg-white w-[455px] h-[258px] shadow-md rounded-3xl px-5 flex flex-col justify-center gap-y-5">
             <p className=" text-[20px] font-light italic">
               Click edit button to change this text. Lorem ipsum dolor sit amet,
               consectetur adipiscing elit. Ut elit tellus, luctus nec
@@ -51,7 +51,7 @@ const Review = () => {
           </div>
         </div>
         <div className=" flex gap-10 justify-center">
-          <div className=" bg-white w-[455px] h-[278px] shadow-md rounded-3xl px-5 flex flex-col justify-center gap-y-5">
+          <div className=" bg-white w-[455px] h-[258px] shadow-md rounded-3xl px-5 flex flex-col justify-center gap-y-5">
             <p className=" text-[20px] font-light italic">
               Click edit button to change this text. Lorem ipsum dolor sit amet,
               consectetur adipiscing elit. Ut elit tellus, luctus nec
@@ -69,7 +69,7 @@ const Review = () => {
               </div>
             </div>
           </div>
-          <div className=" bg-white w-[455px] h-[278px] shadow-md rounded-3xl px-5 flex flex-col justify-center gap-y-5">
+          <div className=" bg-white w-[455px] h-[258px] shadow-md rounded-3xl px-5 flex flex-col justify-center gap-y-5">
             <p className=" text-[20px] font-light italic">
               Click edit button to change this text. Lorem ipsum dolor sit amet,
               consectetur adipiscing elit. Ut elit tellus, luctus nec
