@@ -29,8 +29,8 @@ const Navbar = () => {
     },
     {
       id: 4,
-      title: "Blog",
-      href: "/blog",
+      title: "Videos",
+      href: "/videos",
     },
     {
       id: 5,

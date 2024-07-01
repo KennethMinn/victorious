@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={playFair.className}>
+      <body className={`${playFair.className}`}>
         <Navbar />
         {children}
         <Footer />
