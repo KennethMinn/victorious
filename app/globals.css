@@ -20,3 +20,10 @@ body {
 .bg-pink {
   background-image: url("../assets/aboutus/bg.png");
 }
+
+.linear {
+  background-image: linear-gradient(to right, #f891a3, #763667);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

@@ -12,15 +12,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/videos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/videos/page.js"
+    ],
     "/services/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/services/page.js"
     ],
-    "/videos/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/videos/page.js"
+      "static/chunks/app/contact/page.js"
     ]
   }
 }
